@@ -1,4 +1,10 @@
 name: intro to actions
 
 on:
-  workflow-dispach
+  workflow_dispatch:    
+  push:
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "echo step 1"
