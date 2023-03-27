@@ -3,6 +3,8 @@ name: intro to actions
 on:
   workflow_dispatch:    
   push:
+  schedule:
+    - cron: "15 6 * * *"
 jobs:
   job1:
     runs-on: ubuntu-latest
