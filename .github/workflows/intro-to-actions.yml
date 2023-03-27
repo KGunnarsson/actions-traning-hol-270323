@@ -1,0 +1,4 @@
+name: intro to actions
+
+on:
+  workflow-dispach
